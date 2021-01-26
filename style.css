@@ -18,9 +18,9 @@ h6 {
   clear: both;
 }
 .myImage {
-  width: 130px;
+  width: 100px;
   height: 100px;
-  padding: 20px;
+  padding: 20px 25px;
   float: left;
 }
 .container {
@@ -57,4 +57,20 @@ h6 {
 .right-part {
   float: right;
   padding: 20px;
+  width: 600px;
+}
+
+.mainListPart {
+}
+.subListPart {
+  width: 500px;
+  margin: 8px 100px;
+  position: relative;
+}
+.subListPart2 {
+  list-style-type: none;
+  width: 300px;
+  position: absolute;
+  top: 103px;
+  left: 74px;
 }
