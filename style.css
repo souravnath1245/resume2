@@ -3,8 +3,8 @@
   padding: 0;
 }
 body {
-  background-color: rgb(106, 168, 148);
-  font-family: "Lobster", cursive;
+  background-color: rgb(250, 250, 250);
+  font-family: "Noto Serif", serif;
 }
 h1,
 h2,
@@ -13,6 +13,8 @@ h4,
 h5,
 h6 {
   color: #0f2411;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
 }
 .div-clear {
   clear: both;
@@ -23,15 +25,42 @@ h6 {
   padding: 20px 25px;
   float: left;
 }
+.image {
+  width: 100%;
+  box-shadow: 6px 6px rgba(221, 245, 6, 0.61);
+  border-radius: 20px;
+}
 .container {
   max-width: 1000px;
-  height: 1000px;
-  background-color: rgb(243, 237, 227);
+  background-image: linear-gradient(
+    -45deg,
+    rgba(26, 50, 51, 0.863),
+    rgba(13, 75, 17, 0.788),
+    rgba(13, 75, 17, 0.788),
+    rgba(26, 50, 51, 0.863),
+    transparent
+  );
   margin: 0 auto;
+  color: white;
+  box-shadow: 5px 25px 14px orange;
 }
 .header-bio {
   float: left;
   padding: 30px;
+}
+.header-bio h1,
+.design {
+  font-family: "Berkshire Swash", cursive;
+  text-shadow: 5px 3px 4px yellow;
+}
+.design {
+  margin: 0px 25px;
+}
+.name {
+  color: rgb(55, 27, 184);
+}
+.lastName {
+  color: blueviolet;
 }
 .header-contact {
   float: right;
@@ -39,7 +68,7 @@ h6 {
 }
 .header-contact a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .header-contact a:hover {
   color: blue;
@@ -71,6 +100,25 @@ h6 {
   list-style-type: none;
   width: 300px;
   position: absolute;
-  top: 103px;
+  top: 113px;
   left: 74px;
+}
+.footer {
+  max-width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.social-site {
+  margin: 10px 15px;
+}
+.social-site a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  padding: 5px 15px;
+}
+.social-site a:hover {
+  color: blue;
+  text-decoration: underline;
 }
